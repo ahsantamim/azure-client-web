@@ -37,7 +37,7 @@ const Navbar = () => {
             <img
               src={"public/logo.png"}
               alt="Logo"
-              className="h-12 w-12 inline-block mr-2 scale-110"
+              className="h-10 w-10 inline-block mr-2 scale-150"
             />
           </Link>
         </motion.div>
