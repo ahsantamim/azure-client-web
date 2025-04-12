@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "public/logo.png"; // Adjust the path as necessary
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -32,10 +31,10 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent dark:from-amber-400 dark:to-orange-400"
+            className="text-2xl font-bold"
           >
             <img
-              src={"public/logo.png"}
+              src={"/logo.png"}
               alt="Logo"
               className="h-10 w-10 inline-block mr-2 scale-150"
             />
@@ -53,7 +52,7 @@ const Navbar = () => {
               to="reservation"
               smooth={true}
               duration={500}
-              className="px-5 py-2.5 rounded-full bg-gradient-to-r from-amber-600 to-orange-600 text-white font-medium text-sm shadow-md hover:shadow-lg transition-all duration-300"
+              className="px-5 py-2.5 rounded-full bg-gradient-to-r from-blue-600 to-blue-900 text-white font-medium text-sm shadow-md hover:shadow-lg transition-all duration-300"
             >
               Reserve Now
             </Link>

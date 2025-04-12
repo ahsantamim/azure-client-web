@@ -104,7 +104,7 @@ const MenuSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="py-20 px-4 md:px-8 lg:px-16 bg-amber-50 dark:bg-gray-900"
+      className="py-20 px-4 md:px-8 lg:px-16  bg-gradient-to-tr from-white to-blue-100 dark:from-gray-900 dark:to-gray-800"
       id="menu"
     >
       <div className="container max-w-7xl mx-auto">
@@ -126,13 +126,13 @@ const MenuSection = () => {
 
         <Tabs defaultValue="all" className="mb-12">
           <div className="flex justify-center">
-            <TabsList className="bg-amber-100 dark:bg-gray-800">
+            <TabsList className="bg-white ">
               {["all", "appetizer", "main", "dessert"].map((cat) => (
                 <TabsTrigger
                   key={cat}
                   value={cat}
                   onClick={() => setActiveCategory(cat)}
-                  className="data-[state=active]:bg-amber-500 data-[state=active]:text-white capitalize"
+                  className="data-[state=active]:bg-blue-500 data-[state=active]:text-white capitalize"
                 >
                   {cat === "all"
                     ? "All"
@@ -184,7 +184,7 @@ const MenuItemCard = ({ item, index }: MenuItemCardProps) => {
       viewport={{ once: true }}
       whileHover={{ y: -10, transition: { duration: 0.3 } }}
     >
-      <Card className="overflow-hidden h-full bg-white dark:bg-gray-800 border-amber-200 dark:border-amber-900 flex flex-col">
+      <Card className="overflow-hidden h-full bg-white dark:bg-gray-800 border-white flex flex-col">
         <div className="relative h-48 overflow-hidden">
           <img
             src={item.image}
@@ -221,7 +221,7 @@ const MenuItemCard = ({ item, index }: MenuItemCardProps) => {
             <motion.button
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              className="px-6 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-full text-sm font-medium transition-colors duration-300 shadow-sm"
+              className="px-6 py-2 bg-red-600 hover:bg-orange-700 text-white rounded-full text-sm font-medium transition-colors duration-300 shadow-sm"
             >
               Add to order
             </motion.button>

@@ -114,7 +114,7 @@ const SpecialsSection = () => {
                   <motion.button
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
-                    className="px-6 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-full text-sm font-medium transition-colors duration-300 shadow-sm"
+                    className="px-6 py-2 bg-red-600 hover:bg-blue-700 text-white rounded-full text-sm font-medium transition-colors duration-300 shadow-sm"
                   >
                     Add to order
                   </motion.button>
@@ -143,7 +143,7 @@ const SpecialsSection = () => {
           <motion.button
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            className="px-8 py-3 bg-transparent border border-orange-600 text-orange-600 hover:bg-orange-50 dark:border-orange-400 dark:text-orange-400 dark:hover:bg-gray-800 rounded-full font-medium transition-colors duration-300 text-sm"
+            className="px-8 py-3 bg-transparent border  bg-blue-600 text-white hover:bg-blue-700  rounded-full font-medium transition-colors duration-300 text-sm"
           >
             Explore Full Menu
           </motion.button>

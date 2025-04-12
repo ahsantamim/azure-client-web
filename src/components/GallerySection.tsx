@@ -92,15 +92,15 @@ const GallerySection = () => {
         </motion.div>
 
         <div className="flex justify-center mb-8">
-          <div className="inline-flex bg-white dark:bg-gray-800 rounded-full p-1 shadow-md">
+          <div className="inline-flex bg-white  rounded-full p-1 shadow-md">
             {["all", "food", "interior", "staff"].map((filter) => (
               <motion.button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeFilter === filter
-                    ? "bg-orange-500 text-white"
-                    : "text-gray-700 dark:text-gray-300 hover:bg-orange-100 dark:hover:bg-gray-700"
+                    ? "bg-blue-500 text-white"
+                    : "text-gray-700 "
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

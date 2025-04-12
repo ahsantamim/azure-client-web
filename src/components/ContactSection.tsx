@@ -39,26 +39,26 @@ const ContactSection = () => {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <div className="bg-orange-50 dark:bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="bg-blue-50 dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
                 Get in Touch
               </h3>
 
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
-                  <MapPin className="w-6 h-6 text-orange-600 dark:text-orange-400 mt-1 flex-shrink-0" />
+                  <MapPin className="w-6 h-6 text-blue-600 dark:text-orange-400 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-white">
                       Address
                     </h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      123 Gulshan Avenue, Dhaka 1212, Bangladesh
+                      Sony Chinema Hall, Mirpur, Dhaka 1212, Bangladesh
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <Phone className="w-6 h-6 text-orange-600 dark:text-orange-400 mt-1 flex-shrink-0" />
+                  <Phone className="w-6 h-6 text-blue-600 dark:text-orange-400 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-white">
                       Phone
@@ -73,7 +73,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <Mail className="w-6 h-6 text-orange-600 dark:text-orange-400 mt-1 flex-shrink-0" />
+                  <Mail className="w-6 h-6 text-blue-600 dark:text-orange-400 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-white">
                       Email
@@ -88,7 +88,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <Clock className="w-6 h-6 text-orange-600 dark:text-orange-400 mt-1 flex-shrink-0" />
+                  <Clock className="w-6 h-6 text-blue-600 dark:text-orange-400 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-white">
                       Opening Hours
@@ -110,7 +110,7 @@ const ContactSection = () => {
                 <div className="flex space-x-4">
                   <a
                     href="#"
-                    className="w-10 h-10 rounded-full bg-orange-600 hover:bg-orange-700 flex items-center justify-center text-white transition-colors duration-300"
+                    className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center text-white transition-colors duration-300"
                   >
                     <svg
                       className="h-5 w-5"
@@ -127,7 +127,7 @@ const ContactSection = () => {
                   </a>
                   <a
                     href="#"
-                    className="w-10 h-10 rounded-full bg-orange-600 hover:bg-orange-700 flex items-center justify-center text-white transition-colors duration-300"
+                    className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center text-white transition-colors duration-300"
                   >
                     <svg
                       className="h-5 w-5"
@@ -140,7 +140,7 @@ const ContactSection = () => {
                   </a>
                   <a
                     href="#"
-                    className="w-10 h-10 rounded-full bg-orange-600 hover:bg-orange-700 flex items-center justify-center text-white transition-colors duration-300"
+                    className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center text-white transition-colors duration-300"
                   >
                     <svg
                       className="h-5 w-5"
@@ -157,7 +157,7 @@ const ContactSection = () => {
                   </a>
                   <a
                     href="#"
-                    className="w-10 h-10 rounded-full bg-orange-600 hover:bg-orange-700 flex items-center justify-center text-white transition-colors duration-300"
+                    className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center text-white transition-colors duration-300"
                   >
                     <svg
                       className="h-5 w-5"
@@ -256,7 +256,7 @@ const ContactSection = () => {
               >
                 <Button
                   type="submit"
-                  className="w-full py-6 bg-orange-600 hover:bg-orange-700 text-white font-medium"
+                  className="w-full py-6 bg-blue-600 hover:bg-blue-700 text-white font-medium"
                 >
                   Send Message
                 </Button>
@@ -273,7 +273,7 @@ const ContactSection = () => {
           className="mt-16 h-[400px] rounded-xl overflow-hidden shadow-lg"
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14602.254272231177!2d90.41279905!3d23.7937758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a0f7b9bf49%3A0x7a6b7dd72dcfaa2c!2sGulshan%2C%20Dhaka%2C%20Bangladesh!5e0!3m2!1sen!2sus!4v1653516641252!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.511731473569!2d90.35276647531052!3d23.80039548685522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c135b300e601%3A0x4e91dba279841654!2sSony%20Cinema%20Hall!5e0!3m2!1sen!2sbd!4v1744471011020!5m2!1sen!2sbd"
             width="100%"
             height="100%"
             style={{ border: 0 }}

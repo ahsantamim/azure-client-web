@@ -54,7 +54,7 @@ const AboutSection = () => {
             className="space-y-6"
           >
             <div>
-              <h3 className="text-2xl font-bold mb-3 text-orange-600 dark:text-orange-400">
+              <h3 className="text-2xl font-bold mb-3 text-blue-600">
                 Our Beginning
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -67,7 +67,7 @@ const AboutSection = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold mb-3 text-orange-600 dark:text-orange-400">
+              <h3 className="text-2xl font-bold mb-3 text-blue-600">
                 Our Philosophy
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -80,7 +80,7 @@ const AboutSection = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold mb-3 text-orange-600 dark:text-orange-400">
+              <h3 className="text-2xl font-bold mb-3 text-blue-600">
                 Our Team
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -95,7 +95,7 @@ const AboutSection = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-full font-medium mt-4 transition-colors duration-300 dark:bg-orange-500 dark:hover:bg-orange-600"
+              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium mt-4 transition-colors duration-300 dark:bg-orange-500 dark:hover:bg-orange-600"
             >
               Learn More About Us
             </motion.button>

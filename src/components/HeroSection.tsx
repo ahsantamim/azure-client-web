@@ -192,7 +192,7 @@ const HeroSection = () => {
             transition={{ delay: 2, staggerChildren: 0.1 }}
           >
             <motion.button
-              className="bg-[#FF6B35] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#FF6B35]/90 transition"
+              className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700/90 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

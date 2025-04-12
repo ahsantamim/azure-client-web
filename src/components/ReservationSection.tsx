@@ -55,7 +55,7 @@ const ReservationSection = () => {
   const formRef = useRef<HTMLFormElement>(null);
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -113,7 +113,7 @@ const ReservationSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="py-20 px-4 md:px-8 lg:px-16 bg-background min-h-screen flex flex-col items-center justify-center"
+      className="py-20 h-[66vh] mt-12 px-4 md:px-8 lg:px-16 bg-background min-h-screen flex flex-col items-center justify-center"
       id="reservation"
     >
       <motion.div
@@ -229,7 +229,7 @@ const ReservationSection = () => {
                           variant="outline"
                           className={cn(
                             "w-full justify-start text-left font-normal",
-                            !date && "text-muted-foreground",
+                            !date && "text-muted-foreground"
                           )}
                         >
                           <CalendarIcon className="mr-2 h-4 w-4" />
@@ -291,7 +291,7 @@ const ReservationSection = () => {
                 >
                   <Button
                     type="submit"
-                    className="w-full py-6 text-lg bg-primary hover:bg-primary/90 text-primary-foreground"
+                    className="w-full py-6  text-lg bg-blue-600 hover:bg-primary/90 text-primary-foreground"
                   >
                     Reserve Now
                   </Button>
