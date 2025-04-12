@@ -15,50 +15,165 @@ const GallerySection = () => {
   const galleryImages: GalleryImage[] = [
     {
       id: "1",
-      src: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80",
+      src: "/Gallery/interior/image-1.jpg",
       alt: "Elegant table setting",
       category: "interior",
     },
     {
       id: "2",
-      src: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600&q=80",
-      alt: "Colorful Indian dish with rice",
-      category: "food",
+      src: "/Gallery/interior/image-2.jpg",
+      alt: "Cozy corner with ambient lighting",
+      category: "interior",
     },
     {
       id: "3",
-      src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80",
-      alt: "Restaurant interior with warm lighting",
+      src: "/Gallery/interior/image-3.jpg",
+      alt: "Stylish restaurant interior",
       category: "interior",
     },
     {
       id: "4",
-      src: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
-      alt: "Chicken Tikka Masala",
-      category: "food",
+      src: "/Gallery/interior/image-4.jpg",
+      alt: "Modern dining space",
+      category: "interior",
     },
     {
       id: "5",
-      src: "https://images.unsplash.com/photo-1514222709107-a180c68d72b4?w=600&q=80",
-      alt: "Chef preparing food",
-      category: "staff",
+      src: "/Gallery/interior/image-5.jpg",
+      alt: "Romantic candlelit table",
+      category: "interior",
     },
     {
       id: "6",
-      src: "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?w=600&q=80",
-      alt: "Tandoori Chicken",
-      category: "food",
+      src: "/Gallery/interior/image-6.jpg",
+      alt: "Rustic wooden decor",
+      category: "interior",
     },
     {
       id: "7",
-      src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
-      alt: "Private dining area",
+      src: "/Gallery/interior/image-7.jpg",
+      alt: "luxurious Reception",
       category: "interior",
     },
     {
       id: "8",
-      src: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=80",
-      alt: "Paneer Tikka",
+      src: "/Gallery/interior/image-8.jpg",
+      alt: "Warm lighting and furniture",
+      category: "interior",
+    },
+    {
+      id: "9",
+      src: "/Gallery/interior/image-9.jpg",
+      alt: "Chic minimalist layout",
+      category: "interior",
+    },
+    {
+      id: "10",
+      src: "/Gallery/interior/image-10.jpg",
+      alt: "Classic restaurant vibe",
+      category: "interior",
+    },
+    {
+      id: "11",
+      src: "/Gallery/interior/image-11.jpg",
+      alt: "Artistic wall design",
+      category: "interior",
+    },
+
+    {
+      id: "12",
+      src: "/Gallery/Stuff/image.jpg",
+      alt: "Our dedicated staff",
+      category: "staff",
+    },
+    {
+      id: "13",
+      src: "/Menu/New/image-1.jpg",
+      alt: "Freshly prepared starter",
+      category: "food",
+    },
+    {
+      id: "14",
+      src: "/Menu/New/image-2.jpg",
+      alt: "Crispy golden appetizer",
+      category: "food",
+    },
+    {
+      id: "15",
+      src: "/Menu/New/image-3.jpg",
+      alt: "Delicious seafood dish",
+      category: "food",
+    },
+    {
+      id: "16",
+      src: "/Menu/New/image-4.jpg",
+      alt: "Gourmet presentation plate",
+      category: "food",
+    },
+    {
+      id: "17",
+      src: "/Menu/New/image-5.jpg",
+      alt: "Colorful mixed platter",
+      category: "food",
+    },
+    {
+      id: "18",
+      src: "/Menu/New/image-6.jpg",
+      alt: "Elegant salad bowl",
+      category: "food",
+    },
+    {
+      id: "19",
+      src: "/Menu/Appetiser/image-1.jpg",
+      alt: "Spicy bite-sized appetizer",
+      category: "food",
+    },
+    {
+      id: "20",
+      src: "/Menu/Appetiser/image-2.jpg",
+      alt: "Cheesy delight snack",
+      category: "food",
+    },
+    {
+      id: "21",
+      src: "/Menu/Appetiser/image-3.jpg",
+      alt: "Golden fried delicacy",
+      category: "food",
+    },
+    {
+      id: "22",
+      src: "/Menu/Main/image-1.jpg",
+      alt: "Rich traditional curry",
+      category: "food",
+    },
+    {
+      id: "23",
+      src: "/Menu/Main/image-2.jpg",
+      alt: "Sizzling meat platter",
+      category: "food",
+    },
+    {
+      id: "24",
+      src: "/Menu/Main/image-3.jpg",
+      alt: "Tandoori grilled chicken",
+      category: "food",
+    },
+    {
+      id: "25",
+      src: "/Menu/Main/image-4.jpg",
+      alt: "Classic rice and curry combo",
+      category: "food",
+    },
+    {
+      id: "26",
+      src: "/Menu/Dessert/image-1.jpg",
+      alt: "Chocolate dessert bowl",
+      category: "food",
+    },
+    {
+      id: "27",
+      src: "/Menu/Dessert/image-2.jpg",
+      alt: "Fruit-topped cake",
       category: "food",
     },
   ];
@@ -71,7 +186,7 @@ const GallerySection = () => {
   return (
     <section
       ref={sectionRef}
-      className="py-20 px-4 md:px-8 lg:px-16 "
+      className="py-20 mb-24 px-4 md:px-8 lg:px-16 "
       id="gallery"
     >
       <div className="container max-w-7xl mx-auto">
@@ -125,17 +240,12 @@ const GallerySection = () => {
               whileHover={{ scale: 1.05, zIndex: 10 }}
               className="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-gray-800"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-84 overflow-hidden">
                 <img
                   src={image.src}
                   alt={image.alt}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
-              </div>
-              <div className="p-4">
-                <p className="text-gray-700 dark:text-gray-300 text-sm">
-                  {image.alt}
-                </p>
               </div>
             </motion.div>
           ))}

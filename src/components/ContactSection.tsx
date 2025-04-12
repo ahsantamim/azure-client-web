@@ -52,7 +52,8 @@ const ContactSection = () => {
                       Address
                     </h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Sony Chinema Hall, Mirpur, Dhaka 1212, Bangladesh
+                      First Floor, Plot -78, Mokka Tower, Mirpur-2, Dhaka,
+                      Bangladesh
                     </p>
                   </div>
                 </div>
@@ -64,10 +65,7 @@ const ContactSection = () => {
                       Phone
                     </h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      +880 1234 567890
-                    </p>
-                    <p className="text-gray-600 dark:text-gray-300">
-                      +880 9876 543210
+                      01844-165723
                     </p>
                   </div>
                 </div>
@@ -79,10 +77,7 @@ const ContactSection = () => {
                       Email
                     </h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      info@spicegarden.com
-                    </p>
-                    <p className="text-gray-600 dark:text-gray-300">
-                      reservations@spicegarden.com
+                      azurecuisine@gmail.com
                     </p>
                   </div>
                 </div>
@@ -198,7 +193,7 @@ const ContactSection = () => {
                   </label>
                   <Input
                     id="name"
-                    placeholder="John Doe"
+                    placeholder="Shahriar Haque"
                     className="w-full"
                     required
                   />
@@ -213,7 +208,7 @@ const ContactSection = () => {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="shahriar@example.com"
                     className="w-full"
                     required
                   />

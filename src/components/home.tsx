@@ -41,7 +41,7 @@ const Home = () => {
           <div className="max-w-7xl px-4 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4 text-[#FF6B35] dark:text-[#FF934F]">
-                Spice Garden
+                Azure Cuisine
               </h3>
               <p className="text-gray-300 mb-4">
                 Authentic Indian cuisine in the heart of Dhaka, bringing you the
@@ -117,17 +117,20 @@ const Home = () => {
                 Contact Us
               </h3>
               <address className="not-italic text-gray-300 space-y-2">
-                <p>123 Gulshan Avenue</p>
+                <p>
+                  First Floor, Plot -78, Mokka Tower, Mirpur-2, Dhaka,
+                  Bangladesh
+                </p>
                 <p>Dhaka, Bangladesh</p>
-                <p>Phone: +880 1234 567890</p>
-                <p>Email: info@spicegarden.com</p>
+                <p>Phone: 01844-165723</p>
+                <p>Email: azurecuisine@gmail.com</p>
               </address>
             </div>
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
             <p>
-              &copy; {new Date().getFullYear()} Spice Garden. All rights
+              &copy; {new Date().getFullYear()} Azure Cuisine. All rights
               reserved.
             </p>
           </div>

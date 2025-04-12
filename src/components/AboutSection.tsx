@@ -37,9 +37,9 @@ const AboutSection = () => {
           >
             <div className="relative z-10 overflow-hidden rounded-lg shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+                src="/About/hero.jpg"
                 alt="Restaurant interior"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[600px] object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-orange-500/20 rounded-full blur-3xl z-0"></div>
@@ -54,51 +54,55 @@ const AboutSection = () => {
             className="space-y-6"
           >
             <div>
-              <h3 className="text-2xl font-bold mb-3 text-blue-600">
+              <h3 className="text-xl font-bold mb-3 text-blue-600">
                 Our Beginning
               </h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                Founded in 2005 by Chef Rajesh Sharma, Spice Garden began as a
-                small family restaurant with a mission to bring authentic Indian
-                flavors to Dhaka. What started as a modest 20-seat eatery has
-                now grown into one of the city's most beloved culinary
-                destinations.
+              <p className="text-gray-700 text-sm dark:text-gray-300">
+                In 2021, "Most. Shapla Haque" took the bold step of starting
+                Azure Cuisine Restaurant. With a vision to bring people together
+                through delicious food and warm hospitality, she embarked on a
+                journey filled with challenges and opportunities. From humble
+                beginnings, the restaurant has become a place where memories are
+                created, and flavors come to life.
               </p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold mb-3 text-blue-600">
+              <h3 className="text-xl font-bold mb-3 text-blue-600">
                 Our Philosophy
               </h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                At Spice Garden, we believe that food is more than
-                sustenance—it's an experience that brings people together. Every
-                dish we serve is crafted with care, using traditional recipes
-                passed down through generations and the finest ingredients
-                sourced directly from farms across India.
+              <p className="text-gray-700 text-sm dark:text-gray-300">
+                Azure Cuisine is Multi-Cuisine Restaurant, we believe in
+                offering a culinary journey that transcends boundaries. Our
+                philosophy is rooted in three core values: Quality: We are
+                committed to using the finest and freshest ingredients to create
+                dishes that tantalize your taste buds and nourish your soul.
+                Diversity: Celebrating the rich flavors and traditions of
+                various cuisines, we bring you an eclectic menu that caters to
+                every palate. Experience: Dining is not just about food; it’s
+                about creating memories. We strive to provide a warm ambiance,
+                exceptional service, and a delightful experience for every
+                guest. we don’t just serve meals; we craft experiences that
+                bring people together through the love of food.
               </p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold mb-3 text-blue-600">
-                Our Team
-              </h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                Our team of chefs, trained in the culinary traditions of various
-                Indian regions, brings decades of experience to our kitchen. Led
-                by Executive Chef Priya Patel, they work tirelessly to ensure
-                that every plate that leaves our kitchen is a masterpiece of
-                flavor and presentation.
+              <h3 className="text-xl font-bold mb-3 text-blue-600">Our Team</h3>
+              <p className="text-gray-700 tex-sm dark:text-gray-300">
+                Azure Cuisine Restaurant , we take pride in our dedicated and
+                passionate team who work tirelessly to provide you with an
+                exceptional dining experience. Chefs: Our talented chefs bring
+                creativity and expertise to every dish, ensuring high-quality
+                meals with authentic flavors. Service Staff: Our friendly and
+                professional service team is here to make your visit memorable,
+                offering attentive care and a warm atmosphere. Management: Led
+                by experienced leaders, our management team ensures smooth
+                operations and customer satisfaction at every level. Together,
+                we are committed to excellence and making every visit
+                unforgettable for our guests.
               </p>
             </div>
-
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium mt-4 transition-colors duration-300 dark:bg-orange-500 dark:hover:bg-orange-600"
-            >
-              Learn More About Us
-            </motion.button>
           </motion.div>
         </div>
       </div>
