@@ -106,9 +106,7 @@ const Home = () => {
                 Opening Hours
               </h3>
               <ul className="space-y-2 text-gray-300">
-                <li>Monday - Friday: 11:00 AM - 10:00 PM</li>
-                <li>Saturday - Sunday: 10:00 AM - 11:00 PM</li>
-                <li>Holidays: 10:00 AM - 11:00 PM</li>
+                <li>Everyday: 11:00 AM - 11:00 PM</li>
               </ul>
             </div>
 
