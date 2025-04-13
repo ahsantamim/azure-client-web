@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
-
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const backgroundRef = useRef<HTMLDivElement>(null);
@@ -112,14 +112,19 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Book a Table
+              <a
+                href="#reservation"
+                className="bg-blue-600 text-white px-8 py-3 scroll-smooth rounded-full font-semibold hover:bg-blue-700/90 transition"
+              >
+                Book a Table
+              </a>
             </motion.button>
             <motion.button
               className="border border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              View Menu
+              <a href="#pricemenu">View Menu</a>
             </motion.button>
           </motion.div>
         </motion.div>

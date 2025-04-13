@@ -12,6 +12,7 @@ import ContactSection from "./ContactSection";
 import { Sun, Moon } from "lucide-react";
 import { Button } from "./ui/button";
 import Navbar from "./Navbar";
+import MenuPriceGallery from "./MenuPriceGallery";
 
 const Home = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -30,6 +31,7 @@ const Home = () => {
         <AboutSection />
         <SpecialsSection />
         <MenuSection />
+        <MenuPriceGallery />
         <GallerySection />
         <TeamSection />
         <TestimonialCarousel />
