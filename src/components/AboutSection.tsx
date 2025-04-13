@@ -22,8 +22,8 @@ const AboutSection = () => {
             Our Story
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            A journey of passion, tradition, and authentic flavors from India to
-            Bangladesh.
+            A journey of passion, tradition, and authentic flavors from Indian &
+            Thai-Chinese food.
           </p>
         </motion.div>
 

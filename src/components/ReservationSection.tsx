@@ -174,7 +174,7 @@ const ReservationSection = () => {
                       <Input
                         id="name"
                         name="name"
-                        placeholder="John Doe"
+                        placeholder="Shahriar Hoque"
                         required
                         value={formData.name}
                         onChange={handleInputChange}
@@ -186,7 +186,7 @@ const ReservationSection = () => {
                       <Input
                         id="phone"
                         name="phone"
-                        placeholder="+1 (555) 000-0000"
+                        placeholder="01700000001"
                         required
                         value={formData.phone}
                         onChange={handleInputChange}
