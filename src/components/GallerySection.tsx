@@ -186,7 +186,7 @@ const GallerySection = () => {
   return (
     <section
       ref={sectionRef}
-      className="py-20 mb-24 px-4 md:px-8 lg:px-16 "
+      className="py-20 mb-24 px-4 md:px-8 lg:px-16"
       id="gallery"
     >
       <div className="container max-w-7xl mx-auto">
@@ -207,7 +207,7 @@ const GallerySection = () => {
         </motion.div>
 
         <div className="flex justify-center mb-8">
-          <div className="inline-flex bg-white  rounded-full p-1 shadow-md">
+          <div className="inline-flex bg-white rounded-full p-1 shadow-md">
             {["all", "food", "interior", "staff"].map((filter) => (
               <motion.button
                 key={filter}
@@ -215,7 +215,7 @@ const GallerySection = () => {
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeFilter === filter
                     ? "bg-blue-500 text-white"
-                    : "text-gray-700 "
+                    : "text-gray-700"
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -226,25 +226,26 @@ const GallerySection = () => {
           </div>
         </div>
 
+        {/* 📷 Masonry-style Image Grid */}
         <motion.div
           layout
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+          className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4"
         >
           {filteredImages.map((image, index) => (
             <motion.div
               key={image.id}
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: index * 0.05 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05, zIndex: 10 }}
-              className="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-gray-800"
+              className="break-inside-avoid overflow-hidden rounded-lg shadow-lg bg-white dark:bg-gray-800"
             >
-              <div className="relative h-84 overflow-hidden">
+              <div className="relative overflow-hidden">
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  className="w-full h-auto object-cover transition-transform duration-500 hover:scale-110"
                 />
               </div>
             </motion.div>
